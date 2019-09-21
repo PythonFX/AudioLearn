@@ -13,6 +13,7 @@
 		C926D9F4233601570067BF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926D9F2233601570067BF85 /* Main.storyboard */; };
 		C926D9F6233601590067BF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C926D9F5233601590067BF85 /* Assets.xcassets */; };
 		C926D9F9233601590067BF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C926D9F7233601590067BF85 /* LaunchScreen.storyboard */; };
+		C926DA02233602250067BF85 /* wispering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C926DA01233602240067BF85 /* wispering.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C926D9F5233601590067BF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C926D9F8233601590067BF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C926D9FA233601590067BF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C926DA01233602240067BF85 /* wispering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wispering.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C926D9EB233601570067BF85 /* AuidoLearn */ = {
 			isa = PBXGroup;
 			children = (
+				C926DA002336017B0067BF85 /* Auido */,
 				C926D9EC233601570067BF85 /* AppDelegate.swift */,
 				C926D9EE233601570067BF85 /* SceneDelegate.swift */,
 				C926D9F0233601570067BF85 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				C926D9FA233601590067BF85 /* Info.plist */,
 			);
 			path = AuidoLearn;
+			sourceTree = "<group>";
+		};
+		C926DA002336017B0067BF85 /* Auido */ = {
+			isa = PBXGroup;
+			children = (
+				C926DA01233602240067BF85 /* wispering.mp3 */,
+			);
+			path = Auido;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C926DA02233602250067BF85 /* wispering.mp3 in Resources */,
 				C926D9F9233601590067BF85 /* LaunchScreen.storyboard in Resources */,
 				C926D9F6233601590067BF85 /* Assets.xcassets in Resources */,
 				C926D9F4233601570067BF85 /* Main.storyboard in Resources */,
